@@ -24,9 +24,9 @@ jobs:
         
       - name: Download
         run: |
-          wget "(url)"
+          curl -LO "http://www.gc-forever.com/datfile/gc.dat"
       - name: Upload File
         uses: actions/upload-artifact@v3
         with:
           name: "File"
-          path: "(filename)"
+          path: "gc.dat"
