@@ -25,7 +25,7 @@ jobs:
         
       - name: Download
         run: |
-          curl -LO "http://www.vgmusic.com/new-files/pushingonwards.mid"
+          curl -LO "https://web.archive.org/web/19961017235908id_/http://www.vgmusic.com/new-files/pushingonwards.mid"
       - name: Upload File
         uses: actions/upload-artifact@v6
         with:
