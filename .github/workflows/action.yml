@@ -25,9 +25,9 @@ jobs:
         
       - name: Download
         run: |
-          curl -LO "https://web.archive.org/web/20250918145206id_/https://musical-artifacts.com/artifacts/6022/SM64SF_V3.sf2"
+          curl -LO "http://www.vgmusic.com/new-files/pushingonwards.mid"
       - name: Upload File
         uses: actions/upload-artifact@v6
         with:
           name: "File"
-          path: "SM64SF_V3.sf2"
+          path: "pushingonwards.mid"
